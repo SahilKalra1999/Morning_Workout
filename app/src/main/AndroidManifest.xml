@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sahilkalra.morningworkout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_exercise_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_exercise_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MorningWorkout">
+        <activity android:name=".AbsActivity"></activity>
+        <activity android:name=".LegsActivity" />
+        <activity android:name=".TricepsActivity" />
+        <activity android:name=".BicepsActivity" />
+        <activity android:name=".ShoulderActivity" />
+        <activity android:name=".BackActivity" />
+        <activity android:name=".ChestActivity" />
+        <activity android:name=".WorkoutActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

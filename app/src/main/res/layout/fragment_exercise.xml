@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ExerciseFragment">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="6dp">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgChest"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/newchest"/>
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/back"/>
+
+        <ImageView
+            android:id="@+id/imgTriceps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/triceps"/>
+
+        <ImageView
+            android:id="@+id/imgBiceps"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/biceps"/>
+        <ImageView
+            android:id="@+id/imgShoulders"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/shoulder"/>
+        <ImageView
+            android:id="@+id/imgAbs"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/abs"/>
+
+        <ImageView
+            android:id="@+id/imgLeg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/legs"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+</ScrollView>

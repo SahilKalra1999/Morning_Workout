@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutAppFragment">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:textStyle="normal"
+    android:textSize="26sp"
+    android:text="This app is made using kotlin in android studio. This app shows all the exercises that we usually do in the morning. This app is divided into various sections, each section provides the different exercises such as Chest exercises, Back Exercises, Triceps Exercises, Biceps Exercises, Shoulder Exercises, Abs Exercises and Leg Exercises.
+These section further includes the exercises according to their names, that is, chest section includes only chest exercises and also other section includes exercises as by their names. "/>
+
+
+</LinearLayout>
